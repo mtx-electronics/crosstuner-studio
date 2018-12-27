@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="TableEditorFrame">
+		<title>Table Editor</title>
+		<centered>1</centered>
+		<size>778,469</size>
+		<id_arg>0</id_arg>
+		<handler function="OnResize" entry="EVT_SIZE" />
+		<object class="wxBoxSizer" variable="BoxSizer1" member="no">
+			<object class="sizeritem">
+				<object class="wxPanel" name="ID_PANEL1" variable="Panel_Frame" member="yes">
+					<object class="wxBoxSizer" variable="BoxSizer2" member="no">
+						<object class="sizeritem">
+							<object class="wxPanel" name="ID_PANEL7" variable="Panel7" member="yes">
+								<pos>115,155</pos>
+								<object class="wxBoxSizer" variable="BoxSizer4" member="no">
+									<orient>wxVERTICAL</orient>
+									<object class="sizeritem">
+										<object class="wxPanel" name="ID_PANEL6" variable="Panel6" member="yes">
+											<style>wxSIMPLE_BORDER|wxTAB_TRAVERSAL</style>
+											<object class="wxBoxSizer" variable="BoxSizer8" member="no">
+												<orient>wxVERTICAL</orient>
+												<object class="sizeritem">
+													<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText_ChartTitle" member="yes">
+														<label>Chart Title</label>
+													</object>
+													<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+												<object class="sizeritem">
+													<object class="wxGrid" name="ID_GRID1" variable="Grid" member="yes">
+														<cols>1</cols>
+														<rows>1</rows>
+														<size>520,230</size>
+														<style>wxVSCROLL|wxHSCROLL</style>
+														<handler function="OnGridCellChange" entry="EVT_CMD_GRID_CELL_CHANGE" />
+														<handler function="OnGridCellSelect" entry="EVT_CMD_GRID_SELECT_CELL" />
+													</object>
+													<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+													<option>1</option>
+												</object>
+											</object>
+										</object>
+										<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<border>5</border>
+										<option>1</option>
+									</object>
+									<object class="sizeritem">
+										<object class="wxPanel" name="ID_PANEL11" variable="Panel_Controls" member="yes">
+											<object class="wxBoxSizer" variable="BoxSizer5" member="no">
+												<object class="sizeritem">
+													<object class="wxPanel" name="ID_PANEL5" variable="Panel5" member="yes">
+														<style>wxSIMPLE_BORDER|wxTAB_TRAVERSAL</style>
+														<object class="wxFlexGridSizer" variable="FlexGridSizer1" member="no">
+															<cols>4</cols>
+															<rows>3</rows>
+															<object class="sizeritem">
+																<object class="wxRadioButton" name="ID_RADIOBUTTON1" variable="RadioButton_Raw" member="yes">
+																	<label>Raw</label>
+																	<selected>1</selected>
+																</object>
+																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<option>1</option>
+															</object>
+															<object class="sizeritem">
+																<object class="wxSpinCtrl" name="ID_SPINCTRL1" variable="SpinCtrl_Raw" member="yes">
+																	<value>0</value>
+																	<min>-2147483647</min>
+																	<max>2147483646</max>
+																</object>
+																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<option>1</option>
+															</object>
+															<object class="sizeritem">
+																<object class="wxBitmapButton" name="ID_BITMAPBUTTON1" variable="BitmapButton_RawAdd" member="yes">
+																	<bitmap stock_id="wxART_GO_UP" stock_client="wxART_BUTTON" />
+																	<help>Increment raw value</help>
+																	<handler function="OnBitmapButton_RawAddClick" entry="EVT_BUTTON" />
+																</object>
+																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<option>1</option>
+															</object>
+															<object class="sizeritem">
+																<object class="wxBitmapButton" name="ID_BITMAPBUTTON2" variable="BitmapButton_RawSub" member="yes">
+																	<bitmap stock_id="wxART_GO_DOWN" stock_client="wxART_BUTTON" />
+																	<default>1</default>
+																	<help>Decrement raw value</help>
+																	<handler function="OnBitmapButton_RawSubClick" entry="EVT_BUTTON" />
+																</object>
+																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<option>1</option>
+															</object>
+															<object class="sizeritem">
+																<object class="wxRadioButton" name="ID_RADIOBUTTON2" variable="RadioButton_Perc" member="yes">
+																	<label>Perc.</label>
+																</object>
+																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<option>1</option>
+															</object>
+															<object class="sizeritem">
+																<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl_Perc" member="yes" />
+																<flag>wxALL|wxSHAPED|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<option>1</option>
+															</object>
+															<object class="sizeritem">
+																<object class="wxBitmapButton" name="ID_BITMAPBUTTON3" variable="BitmapButton_PercAdd" member="yes">
+																	<bitmap stock_id="wxART_GO_UP" stock_client="wxART_BUTTON" />
+																	<help>Increment percentage value</help>
+																	<handler function="OnBitmapButton_PercAddClick" entry="EVT_BUTTON" />
+																</object>
+																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<option>1</option>
+															</object>
+															<object class="sizeritem">
+																<object class="wxBitmapButton" name="ID_BITMAPBUTTON4" variable="BitmapButton_PercSub" member="yes">
+																	<bitmap stock_id="wxART_GO_DOWN" stock_client="wxART_BUTTON" />
+																	<default>1</default>
+																	<help>Decrement percentage value</help>
+																	<handler function="OnBitmapButton_PercSubClick" entry="EVT_BUTTON" />
+																</object>
+																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<option>1</option>
+															</object>
+															<object class="sizeritem">
+																<object class="wxRadioButton" name="ID_RADIOBUTTON3" variable="RadioButton_Eng" member="yes">
+																	<label>Eng.</label>
+																	<selected>1</selected>
+																</object>
+																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<option>1</option>
+															</object>
+															<object class="sizeritem">
+																<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="TextCtrl_Eng" member="yes" />
+																<flag>wxALL|wxSHAPED|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<option>1</option>
+															</object>
+															<object class="sizeritem">
+																<object class="wxBitmapButton" name="ID_BITMAPBUTTON5" variable="BitmapButton_EngAdd" member="yes">
+																	<bitmap stock_id="wxART_GO_UP" stock_client="wxART_BUTTON" />
+																	<help>Increment engineering value</help>
+																	<handler function="OnBitmapButton_EngAddClick" entry="EVT_BUTTON" />
+																</object>
+																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<option>1</option>
+															</object>
+															<object class="sizeritem">
+																<object class="wxBitmapButton" name="ID_BITMAPBUTTON6" variable="BitmapButton_EngSub" member="yes">
+																	<bitmap stock_id="wxART_GO_DOWN" stock_client="wxART_BUTTON" />
+																	<default>1</default>
+																	<help>Decrement engineering value</help>
+																	<handler function="OnBitmapButton_EngSubClick" entry="EVT_BUTTON" />
+																</object>
+																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<option>1</option>
+															</object>
+														</object>
+													</object>
+													<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+												<object class="sizeritem">
+													<object class="wxPanel" name="ID_PANEL10" variable="Panel10" member="yes">
+														<style>wxSIMPLE_BORDER|wxTAB_TRAVERSAL</style>
+														<object class="wxBoxSizer" variable="BoxSizer9" member="no">
+															<orient>wxVERTICAL</orient>
+															<object class="sizeritem">
+																<object class="wxButton" name="ID_BUTTON4" variable="Button_FillValue" member="yes">
+																	<label>Fill with value</label>
+																	<help>Fill cells with fixed value</help>
+																	<handler function="OnButton_FillValueClick" entry="EVT_BUTTON" />
+																</object>
+																<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<option>1</option>
+															</object>
+															<object class="sizeritem">
+																<object class="wxButton" name="ID_BUTTON2" variable="Button_SelectValue" member="yes">
+																	<label>Select by value</label>
+																	<help>Select cells by value</help>
+																	<handler function="OnButton_SelectValueClick" entry="EVT_BUTTON" />
+																</object>
+																<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<option>1</option>
+															</object>
+															<object class="sizeritem">
+																<object class="wxButton" name="ID_BUTTON1" variable="Button_SelectGreaterValue" member="yes">
+																	<label>Select &gt;=</label>
+																	<handler function="OnButton_SelectGreaterValueClick" entry="EVT_BUTTON" />
+																</object>
+																<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<option>1</option>
+															</object>
+														</object>
+													</object>
+													<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+												<object class="sizeritem">
+													<object class="wxPanel" name="ID_PANEL4" variable="Panel4" member="yes">
+														<style>wxSIMPLE_BORDER|wxTAB_TRAVERSAL</style>
+														<object class="wxGridSizer" variable="GridSizer1" member="no">
+															<cols>3</cols>
+															<rows>3</rows>
+															<object class="spacer">
+																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<option>1</option>
+															</object>
+															<object class="sizeritem">
+																<object class="wxBitmapButton" name="ID_BITMAPBUTTON7" variable="BitmapButton_SelectionUp" member="yes">
+																	<bitmap stock_id="wxART_GO_UP" stock_client="wxART_BUTTON" />
+																	<help>Function not available!</help>
+																</object>
+																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<option>1</option>
+															</object>
+															<object class="spacer">
+																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<option>1</option>
+															</object>
+															<object class="sizeritem">
+																<object class="wxBitmapButton" name="ID_BITMAPBUTTON9" variable="BitmapButton_SelectionLeft" member="yes">
+																	<bitmap stock_id="wxART_GO_BACK" stock_client="wxART_BUTTON" />
+																	<help>Function not available!</help>
+																</object>
+																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<option>1</option>
+															</object>
+															<object class="sizeritem">
+																<object class="wxBitmapButton" name="ID_BITMAPBUTTON11" variable="BitmapButton_SelectionInfo" member="yes">
+																	<bitmap stock_id="wxART_GO_HOME" stock_client="wxART_BUTTON" />
+																	<help>Show statistics of selected cells</help>
+																	<handler function="OnBitmapButton_SelectionInfoClick" entry="EVT_BUTTON" />
+																</object>
+																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<option>1</option>
+															</object>
+															<object class="sizeritem">
+																<object class="wxBitmapButton" name="ID_BITMAPBUTTON8" variable="BitmapButton_SelectionRight" member="yes">
+																	<bitmap stock_id="wxART_GO_FORWARD" stock_client="wxART_BUTTON" />
+																	<help>Function not available!</help>
+																</object>
+																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<option>1</option>
+															</object>
+															<object class="spacer">
+																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<option>1</option>
+															</object>
+															<object class="sizeritem">
+																<object class="wxBitmapButton" name="ID_BITMAPBUTTON10" variable="BitmapButton_SelectionDown" member="yes">
+																	<bitmap stock_id="wxART_GO_DOWN" stock_client="wxART_BUTTON" />
+																	<help>Function not available!</help>
+																</object>
+																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<option>1</option>
+															</object>
+															<object class="spacer">
+																<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<option>1</option>
+															</object>
+														</object>
+													</object>
+													<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+												<object class="sizeritem">
+													<object class="wxPanel" name="ID_PANEL9" variable="Panel1" member="yes">
+														<style>wxSIMPLE_BORDER|wxTAB_TRAVERSAL</style>
+														<object class="wxBoxSizer" variable="BoxSizer11" member="no">
+															<orient>wxVERTICAL</orient>
+															<object class="sizeritem">
+																<object class="wxGridSizer" variable="GridSizer2" member="no">
+																	<cols>2</cols>
+																	<rows>2</rows>
+																	<object class="sizeritem">
+																		<object class="wxTextCtrl" name="ID_TEXTCTRL3" variable="TextCtrl_TopLeft" member="yes" />
+																		<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																		<border>5</border>
+																		<option>1</option>
+																	</object>
+																	<object class="sizeritem">
+																		<object class="wxTextCtrl" name="ID_TEXTCTRL4" variable="TextCtrl_TopRight" member="yes" />
+																		<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																		<border>5</border>
+																		<option>1</option>
+																	</object>
+																	<object class="sizeritem">
+																		<object class="wxTextCtrl" name="ID_TEXTCTRL5" variable="TextCtrl_BottomLeft" member="yes" />
+																		<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																		<border>5</border>
+																		<option>1</option>
+																	</object>
+																	<object class="sizeritem">
+																		<object class="wxTextCtrl" name="ID_TEXTCTRL6" variable="TextCtrl_BottomRight" member="yes" />
+																		<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																		<border>5</border>
+																		<option>1</option>
+																	</object>
+																</object>
+																<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<option>2</option>
+															</object>
+															<object class="sizeritem">
+																<object class="wxButton" name="ID_BUTTON3" variable="Button_Interpolation" member="yes">
+																	<label>Interpolation</label>
+																	<handler function="OnButton_InterpolationClick" entry="EVT_BUTTON" />
+																</object>
+																<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+																<border>5</border>
+																<option>1</option>
+															</object>
+														</object>
+													</object>
+													<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+													<border>5</border>
+												</object>
+											</object>
+										</object>
+										<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									</object>
+								</object>
+							</object>
+							<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<option>3</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxBoxSizer" variable="BoxSizer3" member="no">
+								<orient>wxVERTICAL</orient>
+								<object class="sizeritem">
+									<object class="wxPanel" name="ID_PANEL8" variable="Panel_2DGraphs" member="yes">
+										<object class="wxBoxSizer" variable="BoxSizer6" member="no">
+											<orient>wxVERTICAL</orient>
+											<object class="sizeritem">
+												<object class="wxPanel" name="ID_PANEL2" variable="Panel2" member="yes">
+													<size>143,153</size>
+													<style>wxSIMPLE_BORDER|wxTAB_TRAVERSAL</style>
+													<object class="wxBoxSizer" variable="BoxSizer7" member="no">
+														<orient>wxVERTICAL</orient>
+														<object class="sizeritem">
+															<object class="wxStaticText" name="ID_STATICTEXT5" variable="StaticText_XAxis" member="yes">
+																<label>X Axis</label>
+															</object>
+															<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+															<border>5</border>
+														</object>
+														<object class="sizeritem">
+															<object class="Custom" name="ID_CUSTOM1" subclass="simpleChart" variable="XChart" member="yes">
+																<creating_code>$(THIS) = new $(CLASS)( Panel2 );</creating_code>
+																<local_include>1</local_include>
+																<style></style>
+															</object>
+															<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+															<border>5</border>
+															<option>1</option>
+														</object>
+													</object>
+												</object>
+												<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+												<option>1</option>
+											</object>
+											<object class="sizeritem">
+												<object class="wxPanel" name="ID_PANEL3" variable="Panel3" member="yes">
+													<style>wxSIMPLE_BORDER|wxTAB_TRAVERSAL</style>
+													<object class="wxBoxSizer" variable="BoxSizer10" member="no">
+														<orient>wxVERTICAL</orient>
+														<object class="sizeritem">
+															<object class="wxStaticText" name="ID_STATICTEXT6" variable="StaticText_YAxis" member="yes">
+																<label>Y Axis</label>
+															</object>
+															<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+															<border>5</border>
+														</object>
+														<object class="sizeritem">
+															<object class="Custom" name="ID_CUSTOM2" subclass="simpleChart" variable="YChart" member="yes">
+																<creating_code>$(THIS) = new $(CLASS)( Panel3 );</creating_code>
+																<local_include>1</local_include>
+																<style></style>
+															</object>
+															<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+															<border>5</border>
+															<option>1</option>
+														</object>
+													</object>
+												</object>
+												<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+												<option>1</option>
+											</object>
+										</object>
+									</object>
+									<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<option>1</option>
+								</object>
+							</object>
+							<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<option>1</option>
+						</object>
+					</object>
+				</object>
+				<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<option>1</option>
+			</object>
+		</object>
+		<object class="wxMenuBar" variable="MenuBar" member="no">
+			<object class="wxMenu" variable="Menu1" member="no">
+				<label>&amp;File</label>
+				<object class="wxMenuItem" name="ID_MENUITEM7" variable="MenuItem8" member="yes">
+					<label>Open absolute data</label>
+					<help>Function not available!</help>
+				</object>
+				<object class="wxMenuItem" name="ID_MENUITEM8" variable="MenuItem9" member="yes">
+					<label>Open difference data</label>
+					<help>Function not available!</help>
+				</object>
+				<object class="separator" />
+				<object class="wxMenuItem" name="ID_MENUITEM9" variable="MenuItem10" member="yes">
+					<label>Save absolute data</label>
+					<help>Function not available!</help>
+				</object>
+				<object class="wxMenuItem" name="ID_MENUITEM10" variable="MenuItem11" member="yes">
+					<label>Save difference data</label>
+					<help>Function not available!</help>
+				</object>
+				<object class="separator" />
+				<object class="wxMenuItem" name="idMenuQuit" variable="MenuItem_Apply" member="no">
+					<label>Apply</label>
+					<accel>Alt-F4</accel>
+					<help>Apply modifications to BIN</help>
+					<handler function="OnMenuItem_ApplySelected" entry="EVT_MENU" />
+				</object>
+				<object class="wxMenuItem" name="ID_MENUITEM16" variable="MenuItem_Cancel" member="yes">
+					<label>Cancel</label>
+					<help>Close without saving modifications</help>
+					<handler function="OnMenuItem_CancelSelected" entry="EVT_MENU" />
+				</object>
+			</object>
+			<object class="wxMenu" variable="Menu2" member="yes">
+				<label>&amp;Modify</label>
+				<object class="wxMenuItem" name="ID_MENUITEM11" variable="MenuItem_Copy" member="yes">
+					<label>Copy to clipboard</label>
+					<help>Copy selected data to clipboard</help>
+					<handler function="OnMenuItem_CopySelected" entry="EVT_MENU" />
+				</object>
+				<object class="wxMenuItem" name="ID_MENUITEM12" variable="MenuItem_Paste" member="yes">
+					<label>Paste from clipboard</label>
+					<help>Paste data from clipboard</help>
+					<handler function="OnMenuItem_PasteSelected" entry="EVT_MENU" />
+				</object>
+				<object class="separator" />
+				<object class="wxMenuItem" name="ID_MENUITEM21" variable="MenuItem_IncRaw" member="yes">
+					<label>Inc. raw value</label>
+					<help>Increment raw value</help>
+					<handler function="OnMenuItem_IncRawSelected" entry="EVT_MENU" />
+				</object>
+				<object class="wxMenuItem" name="ID_MENUITEM22" variable="MenuItem_DecRaw" member="yes">
+					<label>Dec. raw value</label>
+					<help>Decrement raw value</help>
+					<handler function="OnMenuItem_DecRawSelected" entry="EVT_MENU" />
+				</object>
+				<object class="wxMenuItem" name="ID_MENUITEM23" variable="MenuItem_IncPerc" member="yes">
+					<label>Inc. perc. value</label>
+					<help>Increment by percentage</help>
+					<handler function="OnMenuItem_IncPercSelected" entry="EVT_MENU" />
+				</object>
+				<object class="wxMenuItem" name="ID_MENUITEM24" variable="MenuItem_DecPerc" member="yes">
+					<label>Dec. perc. value</label>
+					<help>Decrement by percentage</help>
+					<handler function="OnMenuItem_DecPercSelected" entry="EVT_MENU" />
+				</object>
+				<object class="wxMenuItem" name="ID_MENUITEM25" variable="MenuItem_IncEng" member="yes">
+					<label>Inc. eng. value</label>
+					<help>Increment engineering value</help>
+					<handler function="OnMenuItem_IncEngSelected" entry="EVT_MENU" />
+				</object>
+				<object class="wxMenuItem" name="ID_MENUITEM26" variable="MenuItem_DecEng" member="yes">
+					<label>Dec. eng. value</label>
+					<help>Decrement engineering value</help>
+					<handler function="OnMenuItem_DecEngSelected" entry="EVT_MENU" />
+				</object>
+				<object class="wxMenuItem" name="ID_MENUITEM18" variable="MenuItem_FillValue" member="yes">
+					<label>Fill with value</label>
+					<help>Fill selected cells with a value</help>
+					<handler function="OnMenuItem_FillValueSelected" entry="EVT_MENU" />
+				</object>
+				<object class="separator" />
+				<object class="wxMenuItem" name="ID_MENUITEM1" variable="MenuItem2" member="yes">
+					<label>Copy from BIN #1</label>
+					<help>Function not available!</help>
+				</object>
+				<object class="wxMenuItem" name="ID_MENUITEM2" variable="MenuItem3" member="yes">
+					<label>Copy from BIN #2</label>
+					<help>Function not available!</help>
+				</object>
+				<object class="wxMenuItem" name="ID_MENUITEM3" variable="MenuItem4" member="yes">
+					<label>Copy from BIN #3</label>
+					<help>Function not available!</help>
+				</object>
+			</object>
+			<object class="wxMenu" variable="Menu6" member="yes">
+				<label>&amp;Compare</label>
+				<object class="wxMenuItem" name="ID_MENUITEM4" variable="MenuItem_SelectCompareBIN1" member="yes">
+					<label>Compare BIN #1</label>
+					<help>Compare current BIN to BIN #1</help>
+					<handler function="OnMenuItem_SelectCompareBIN1Selected" entry="EVT_MENU" />
+					<checkable>1</checkable>
+				</object>
+				<object class="wxMenuItem" name="ID_MENUITEM5" variable="MenuItem_SelectCompareBIN2" member="yes">
+					<label>Compare BIN #2</label>
+					<help>Compare current BIN to BIN #2</help>
+					<handler function="OnMenuItem_SelectCompareBIN2Selected" entry="EVT_MENU" />
+					<checkable>1</checkable>
+				</object>
+				<object class="wxMenuItem" name="ID_MENUITEM6" variable="MenuItem_SelectCompareBIN3" member="yes">
+					<label>Compare BIN #3</label>
+					<help>Compare current BIN to BIN #3</help>
+					<handler function="OnMenuItem_SelectCompareBIN3Selected" entry="EVT_MENU" />
+					<checkable>1</checkable>
+				</object>
+				<object class="separator" />
+				<object class="wxMenuItem" name="ID_MENUITEM31" variable="MenuItem_ShowDifferences" member="yes">
+					<label>Show differences</label>
+					<help>Show difference between current BIN and selected compare BIN</help>
+					<handler function="OnMenuItem_ShowDifferencesSelected" entry="EVT_MENU" />
+					<checkable>1</checkable>
+				</object>
+				<object class="wxMenuItem" name="ID_MENUITEM32" variable="MenuItem_ShowRawValues" member="yes">
+					<label>Show raw values</label>
+					<help>Show raw values on grid</help>
+					<handler function="OnMenuItem_ShowRawValuesSelected" entry="EVT_MENU" />
+					<checkable>1</checkable>
+				</object>
+				<object class="separator" />
+				<object class="wxMenuItem" name="ID_MENUITEM33" variable="MenuItem_HighlightDifferences" member="yes">
+					<label>Highlight differences</label>
+					<help>Highlight the cells that are different between the current BIN and the compare BIN</help>
+					<handler function="OnMenuItem_HighlightDifferencesSelected" entry="EVT_MENU" />
+					<checkable>1</checkable>
+				</object>
+			</object>
+			<object class="wxMenu" variable="Menu3" member="yes">
+				<label>&amp;Select</label>
+				<object class="wxMenuItem" name="ID_MENUITEM13" variable="MenuItem_SelectAll" member="yes">
+					<label>Select all</label>
+					<help>Select all cells</help>
+					<handler function="OnMenuItem_SelectAllSelected" entry="EVT_MENU" />
+				</object>
+				<object class="wxMenuItem" name="ID_MENUITEM17" variable="MenuItem_InvertSelections" member="yes">
+					<label>Invert selections</label>
+					<help>Invert cell selections</help>
+					<handler function="OnMenuItem_InvertSelectionsSelected" entry="EVT_MENU" />
+				</object>
+				<object class="wxMenuItem" name="ID_MENUITEM14" variable="MenuItem_Select_None" member="yes">
+					<label>Clear selections</label>
+					<help>Clear all cell selections</help>
+					<handler function="OnMenuItem_Select_NoneSelected" entry="EVT_MENU" />
+				</object>
+				<object class="wxMenuItem" name="ID_MENUITEM15" variable="MenuItem_SelectValue" member="yes">
+					<label>Select by value</label>
+					<help>Select cells by value</help>
+					<handler function="OnMenuItem_SelectValueSelected" entry="EVT_MENU" />
+				</object>
+				<object class="wxMenuItem" name="ID_MENUITEM36" variable="MenuItem_SelectGreaterValue" member="yes">
+					<label>Select &gt;= value</label>
+					<help>Select cells which are greater then or equal to by value</help>
+					<handler function="OnMenuItem_SelectGreaterValueSelected" entry="EVT_MENU" />
+				</object>
+				<object class="separator" />
+				<object class="wxMenuItem" name="ID_MENUITEM27" variable="MenuItem28" member="yes">
+					<label>Move selection up</label>
+					<help>Function not available!</help>
+				</object>
+				<object class="wxMenuItem" name="ID_MENUITEM28" variable="MenuItem29" member="yes">
+					<label>Move selection down</label>
+					<help>Function not available!</help>
+				</object>
+				<object class="wxMenuItem" name="ID_MENUITEM29" variable="MenuItem30" member="yes">
+					<label>Move selection left</label>
+					<help>Function not available!</help>
+				</object>
+				<object class="wxMenuItem" name="ID_MENUITEM30" variable="MenuItem31" member="yes">
+					<label>Move selection right</label>
+					<help>Function not available!</help>
+				</object>
+			</object>
+			<object class="wxMenu" variable="Menu5" member="yes">
+				<label>&amp;View</label>
+				<object class="wxMenuItem" name="ID_MENUITEM20" variable="MenuItem_2DView" member="yes">
+					<label>View Graphs</label>
+					<help>Show 2D graphs side panel</help>
+					<handler function="OnMenuItem_2DViewSelected" entry="EVT_MENU" />
+					<checkable>1</checkable>
+				</object>
+				<object class="wxMenuItem" name="ID_MENUITEM19" variable="MenuItem_ViewControls" member="yes">
+					<label>View Controls</label>
+					<help>Show controls panel</help>
+					<handler function="OnMenuItem_ViewControlsSelected" entry="EVT_MENU" />
+					<checkable>1</checkable>
+				</object>
+			</object>
+			<object class="wxMenu" variable="Menu7" member="yes">
+				<label>&amp;Windows</label>
+				<object class="wxMenuItem" name="ID_MENUITEM34" variable="MenuItem1" member="yes">
+					<label>2D Map Editor</label>
+					<help>Function not available!</help>
+				</object>
+				<object class="wxMenuItem" name="ID_MENUITEM35" variable="MenuItem_3DViewer" member="yes">
+					<label>3D Map Viewer</label>
+					<help>Show 3D view of the map</help>
+					<handler function="OnMenuItem_3DViewerSelected" entry="EVT_MENU" />
+				</object>
+			</object>
+			<object class="wxMenu" variable="Menu8" member="yes">
+				<label>&amp;Tools</label>
+				<object class="wxMenuItem" name="ID_MENUITEM37" variable="MenuItem6" member="yes">
+					<label>Tool Editor</label>
+					<accel>Alt-T</accel>
+					<help>Function not available!</help>
+				</object>
+				<object class="separator" />
+			</object>
+			<object class="wxMenu" variable="Menu4" member="yes">
+				<label>&amp;Plugins</label>
+			</object>
+		</object>
+		<object class="wxStatusBar" name="ID_STATUSBAR1" variable="StatusBar" member="yes">
+			<fields>2</fields>
+			<widths>300,-10</widths>
+			<styles>wxSB_NORMAL,wxSB_NORMAL</styles>
+		</object>
+		<object class="wxToolBar" name="ID_TOOLBAR1" variable="ToolBar" member="yes">
+			<bitmapsize>-1,-1</bitmapsize>
+		</object>
+	</object>
+</wxsmith>
