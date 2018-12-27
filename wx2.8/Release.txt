@@ -1,0 +1,137 @@
+-------------------------------------------------------------
+-                       MTX Electronics                     -
+-    www.mtx-electronics.com / info@mtx-electronics.com     -
+-                                                           -
+-                     CrossTuner Studio                     -
+-------------------------------------------------------------
+
+Descrizione:
+----------------------------
+
+CrossTuner Studio è un software freeware che permette di modificare le mappature 
+automobilistiche contenute dentro la centralina di gestione motore. Il software 
+è stato sviluppato con l'intento di essere multi-piattaforma quindi può essere 
+utilizzato su sistema operativo Windows XP/Vista/7 e Linux (MacOS nel futuro), 
+inoltre è possibile copiare tutti i file necessari al suo funzionamento su una 
+chiavetta USB cosi da utilizzarlo su qualsiasi PC senza necessita di installazione.
+
+
+To Do:
+----------------------------
+
+Generale:
+
+- Modifica array statiche in dinamiche
+- Aggiungi cartelle di default def/ori/mod
+- Aggiungi carica/salva con selzionato .ext di default
+- Salva pezzi del file bin (Inizio/Fine, Inizio/Lunghezza)
+- Dividi file bin (# Pezzi, Dimensione blocchi)
+- Accoda BIN
+- Sovrascivi BIN
+- Aggiungi attrezzi configurabili
+- Chat con l'assistenza tecnica
+
+Plugin:
+
+- Plugin: Ricerca automatica dei dati ECU (# HW, # SW, Tipo ECU, ecc...)
+- Plugin: Calcolo automatico dei checksum
+- Plugin: Leggi/Scrivi ECU via OBD
+- Plugin: Leggi/Scrivi ECU via BDM
+- Plugin: Leggi/Scrivi ECU via JTAG
+- Plugin: Leggi/Scrivi EEProm Seriali (24Cxx, 93Cxx, 95cxx)
+- Plugin: Leggi/Cancella errori diagnosi via OBD
+- Plugin: Logger parametri via OBD
+- Plugin: Logger parametri tramite cavo ELM327
+- Plugin: Disabilitazione immobilizer
+- Plugin: Disabilitazione EGR
+- Plugin: Disabilitazione FAP/DPF
+- Plugin: Avviamento a caldo VW
+- Plugin: Taglio Turbo Alfa JTD Euro 3
+
+Visualizzatore Mappe (Definizioni):
+
+- Aggiungi hint con descrizione al passaggio con il mouse
+- Aggiungi doppio click per aprire editor delle mappe
+
+Editor delle Mappe (Definizioni):
+
+- Aggiungi files di definizioni codificati
+- Aggiungi possibilità di definire più mappe affini (Grouping)
+- Aggiungi dati header
+- Aggiungi visualizzazione dati asse z in tempo reale
+- Sposta dati asse z in generale nel tab asse z
+- Cancella residui in RAM di dati rimasti da definizioni precedenti
+
+Editor Tabella:
+
+- Aggiungi nei riquadri 2D asse X/Y dati della modifica
+- Aggiungi editor 2D solo per l'attuale mappa
+- Possibilità di spostare la selezione con le frecce
+- Carica/Salva modifiche in diff. & abs.
+- Copia da bin 1/2/3 nell'attuale buffer
+- Memorizza stato opzioni nel file di configurazione
+- Aggiungi attrezzi configurabili
+- Aggiungi modifica dei fattori rapida
+
+Editor 2D:
+
+- Ricerca potenziali mappe automatica
+- Ricerca esadecimale/decimale
+- Riconoscimento delle mappe automatico
+- Evidenzia le mappe definite
+- Creazione/Modifica delle mappe (Definizioni)
+- Modifica in 2D della mappa
+- Segnalibri
+
+
+Contati/Supporto:
+----------------------------
+
+Supporto è disponibile sul forum. 
+Si preferisce l'interazione tramite il forum anzi che le email cosi da lasciare traccia delle informazioni per altri utente con quesiti simili.
+
+FORUM
+http://www.mtx-electronics.com/automotive/e107_plugins/forum/forum.php
+
+
+Bugs Conosciuti:
+----------------------------
+
+- L'utilizzo di letter accentate nelle definizioni crea problemi durante il caricamento del file
+- Su S/O Windows nella schermata tabellare la tabella ha problemi nella creazione della barra di scorrimento
+- Su S/O Windows al primo avvio il caricamento delle definizioni può causare un excemption
+- Le operazioni di modifica delle definizioni non tengono presente di vecchi dati in memoria
+- Quando si chiude una definizione mappe non vengono cancellate dalla memoria
+
+Release history:
+----------------------------
+
+Release 0.3.2
+- Corretto crash durante la colorazione delle celle
+
+Release 0.3.0
+- Sistemato mancato salvataggio dei valori min/max scalare nell'editor delle mappe
+- Sistemato assi che visualizzavano sempre 0
+- Impostato il punto (.) come separatore standard per i numeri a virgola mobile in tutte le internazionalizzazioni
+  (Per caricare file XTS creati con versioni precedenti è necessario sostituire tutti i numeri che hanno le virgole con il punto)
+
+Release 0.2.9
+- Sistemato il bug di aggiornamento nei grafici 2D del tabellare
+- Sistemato il crash quando si inseriva un'indirizzo più grande del file nell'editor delle mappe
+
+Release 0.2.8
+- Aggiunto inserimento manuale dei valori asse nell'editor delle mappe
+- Aggiunto inserimento scalare dei valori asse nell'editor delle mappe
+- Iniziata lavorazione per l'inserimento di attrezzi
+
+Release 0.2.7
+- Aggiunta importazione definizioni XDF da TunerPro
+- Completato taglia/incolla nell'editor tabellare
+
+Release 0.2.6
+- Creati icone per la toolbar
+- Implementata visualizzazione in 3D tramite gnuplot
+
+Release 0.2.5
+- Primo rilascio ufficiale
+

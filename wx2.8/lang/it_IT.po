@@ -1,0 +1,1467 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CrossTuner Studio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-05-31 20:36+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: MTX Electronics <info@mtx-electronics.com>\n"
+"Language-Team: MTX Electronics <info@mtx-electronics.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /home/mtx/workspace/wxWidgets/CrossTunerStudio\n"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/AboutBoxDialog.cpp:170
+msgid "version"
+msgstr "versione"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/AboutBoxDialog.cpp:208
+msgid "&OK"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/AboutBoxDialog.cpp:263
+msgid " build)"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/AboutBoxDialog.cpp:269
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:648
+msgid "About"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:293
+msgid "CrossTuner Studio"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:298
+msgid "Select BIN #1"
+msgstr "Seleziona BIN #1"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:300
+msgid "Select BIN #1 as the default for edit operations"
+msgstr "Seleziona BIN #1 come default per le operazioni di modifica"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:305
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:360
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:415
+msgid "..."
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:306
+msgid "Load BIN #1 from your hard drive"
+msgstr "Carica BIN #1 dal hard disk"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:311
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:366
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:421
+msgid "Size"
+msgstr "Dim."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:314
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:319
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:324
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:329
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:334
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:339
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:344
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:349
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:369
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:374
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:379
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:384
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:389
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:394
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:399
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:404
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:424
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:429
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:434
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:439
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:444
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:449
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:454
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:459
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/FileOptions/FileOptionsMain.cpp:81
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/FileOptions/FileOptionsMain.cpp:85
+msgid "---"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:316
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:371
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:426
+msgid "ECU"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:321
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:376
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:431
+msgid "HW"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:326
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:381
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:436
+msgid "SW"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:331
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:386
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:441
+msgid "Chk. Type"
+msgstr "Tipo Chk."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:336
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:391
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:446
+msgid "Chk. 8"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:341
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:396
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:451
+msgid "Chk. 16"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:346
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:401
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:456
+msgid "Chk. 32"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:354
+msgid "Select BIN #2"
+msgstr "Seleziona BIN #2"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:355
+msgid "Select BIN #2 as the default for edit operations"
+msgstr "Seleziona BIN #2 come default per le operazioni di modifica"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:361
+msgid "Load BIN #2 from your hard drive"
+msgstr "Carica BIN #2 dal hard disk"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:409
+msgid "Select BIN #3"
+msgstr "Seleziona BIN #3"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:410
+msgid "Select BIN #3 as the default for edit operations"
+msgstr "Seleziona BIN #3 come default per le operazioni di modifica"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:416
+msgid "Load BIN #3 from your hard drive"
+msgstr "Carica BIN #3 dal hard disk"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:470
+msgid "Load BIN\tAlt-1"
+msgstr "Carica BIN\tAlt-1"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:470
+msgid "Load BIN file from your hard drive"
+msgstr "Carica il file BIN dal hard disk"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:472
+msgid "Save BIN\tAlt-4"
+msgstr "Salva BIN"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:472
+msgid "Save BIN file to your hard drive"
+msgstr "Salva BIN nel hard disk"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:474
+msgid "Save BIN as ...\tAlt-7"
+msgstr "Salva BIN come...\tAlt-7"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:474
+msgid "Save BIN file to your hard drive with a different name"
+msgstr "Salva il file BIN nel hard disk con nome diverso"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:477
+msgid "Append to BIN"
+msgstr "Apporre al BIN"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:477
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:479
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:482
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:484
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:529
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:537
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:541
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:230
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:234
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:240
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:244
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:311
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:313
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:316
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:318
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:327
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:329
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:347
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:349
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:351
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:382
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:384
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:386
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:388
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:398
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:400
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:404
+msgid "Function not available!"
+msgstr "Funziona non disponibile!"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:479
+msgid "Overload to BIN"
+msgstr "Sovrapponi al BIN"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:482
+msgid "Split BIN"
+msgstr "Dividi BIN"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:484
+msgid "Save Partial BIN"
+msgstr "Salva BIN Parziale"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:487
+msgid "Quit\tAlt-F4"
+msgstr "Esci\tAlt-F4"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:487
+msgid "Quit the application"
+msgstr "Esci dall'applicazione"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:489
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:325
+msgid "&File"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:491
+msgid "New Map Definitions \tAlt-N"
+msgstr "Nuova definizione mappe \tAlt-N"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:491
+msgid "Clear definitions from memory"
+msgstr "Cancella definizioni dalla memoria"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:493
+msgid "Load Map Definitions\tAlt-L"
+msgstr "Carica definizioni"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:493
+msgid "Load definition file from hard drive"
+msgstr "Carica file di definizione dal hard disk"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:495
+msgid "Save Map Definitions\tAlt-W"
+msgstr "Salva definizioni"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:495
+msgid "Save definition file to hard drive"
+msgstr "Salva definizioni sul hard disk"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:498
+msgid "Add New Map\tAlt-A"
+msgstr "Aggiungi Mappa"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:498
+msgid "Create a new map"
+msgstr "Crea nuova mappa"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:500
+msgid "Edit Selected Map\tAlt-I"
+msgstr "Modifica Mappa\tAlt-I"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:500
+msgid "Edit the currently selected map"
+msgstr "Modifica la mappa attualmente selezionata"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:502
+msgid "Delete Selected Map\tAlt-D"
+msgstr "Cancella Mappa\tAlt-D"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:502
+msgid "Delete the currently selected map"
+msgstr "Cancella la mappa attualmente selezionata"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:504
+msgid "Duplicate Selected Map\tAlt-U"
+msgstr "Duplica Mappa\tAlt-U"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:504
+msgid "Duplicate the currently selected map"
+msgstr "Duplica la mappa attualmente selezionata"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:508
+msgid "TunerPro (XDF v1.50)"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:508
+msgid "Import TunerPro XDF definition files"
+msgstr "Importa file di definizione TunerPro XDF"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:510
+msgid "Import"
+msgstr "Importa"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:510
+msgid "Import definitions from other formats"
+msgstr "Importa definizioni da altri formati"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:511
+msgid "&Maps"
+msgstr "&Mappe"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:514
+msgid "Copy BIN #1 to BIN #2"
+msgstr "Copia BIN #1 a BIN #2"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:516
+msgid "Copy BIN #1 to BIN #3"
+msgstr "Copia BIN #1 a BIN #3"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:518
+msgid "Copy BIN #2 to BIN #1"
+msgstr "Copia BIN #2 a BIN #1"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:520
+msgid "Copy BIN #2 to BIN #3"
+msgstr "Copia BIN #2 a BIN #3"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:522
+msgid "Copy BIN #3 to BIN #1"
+msgstr "Copia BIN #3 a BIN #1"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:524
+msgid "Copy BIN #3 to BIN #2"
+msgstr "Copia BIN #3 a BIN #2"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:526
+msgid "Copy Buffers"
+msgstr "Copia Buffer"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:526
+msgid "Functions to copy BIN buffers between one another"
+msgstr "Funzioni per copiare i buffer BIN tra di loro"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:527
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:353
+msgid "&Modify"
+msgstr "&Modifica"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:529
+msgid "Preferences\tAlt-P"
+msgstr "Preferenze\tAlt-P"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:531
+msgid "&Options"
+msgstr "&Opzioni"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:533
+msgid "Definitions Viewer\tAlt-V"
+msgstr "Visualizza Definizioni\tAlt-V"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:533
+msgid "Open map definitions window"
+msgstr "Apri la finestra delle definizioni mappe"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:535
+msgid "Table Map Editor\tAlt-T"
+msgstr "Editor Tabellare\tAlt-T"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:535
+msgid "Open map data in table form"
+msgstr "Apri la mappa in modalità tabella"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:537
+msgid "2D Map Editor\tAlt-O"
+msgstr "Editor 2D\tAlt-O"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:539
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:402
+msgid "&Windows"
+msgstr "&Finestre"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:541
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:404
+msgid "Tool Editor\tAlt-T"
+msgstr "Editor Attrezzi\tAlt-T"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:544
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:407
+msgid "&Tools"
+msgstr "&Attrezzi"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:546
+msgid "Checksum"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:548
+msgid "Flashing"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:550
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:409
+msgid "&Plugins"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:552
+msgid "About\tF1"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:552
+msgid "Show info about this application"
+msgstr "Visualizza informazioni sull'applicazione"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:554
+msgid "&Help"
+msgstr "&Aiuto"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:636
+msgid "Load BIN"
+msgstr "Carica BIN"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:637
+msgid "Save BIN"
+msgstr "Salva BIN"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:639
+msgid "Load Map"
+msgstr "Carica Mappa"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:639
+msgid "Load Map Definitions"
+msgstr "Carica Definizioni Mappe"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:640
+msgid "Map Viewer"
+msgstr "Visualizzatore Mappe"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:640
+msgid "Definitions Map Viewer"
+msgstr "Visualizzatore delle Definizioni Mappe"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:641
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:130
+msgid "Map Editor"
+msgstr "Editor Mappe"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:641
+msgid "Definitions Map Editor"
+msgstr "Editor delle Definizioni Mappe"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:643
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:146
+msgid "Table Editor"
+msgstr "Editor Tabellare"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:644
+msgid "2D Editor"
+msgstr "Editor 2D"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:646
+msgid "Preferences"
+msgstr "Preferenze"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:649
+msgid "Quit"
+msgstr "Esci"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:722
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:723
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:724
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:734
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:735
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:736
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:746
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:747
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:748
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:2256
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:2257
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:2258
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:2278
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:2279
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:2280
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:2300
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:2301
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:2302
+msgid "0x"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:788
+msgid "Select maps file to load"
+msgstr "Seleziona file definizione da caricare"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:801
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:2312
+msgid "Maps file loaded."
+msgstr "Definizioni caricate."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:808
+msgid "Select maps file to save"
+msgstr "Seleziona file definizione da salvare"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:968
+msgid "Maps file saved."
+msgstr "Definizioni salvate."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:1132
+msgid "New map added."
+msgstr "Nuova mappa aggiunta."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:1141
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:1709
+msgid "No maps have been loaded!"
+msgstr "Non sono state caricate definizioni!"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:1147
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:1715
+msgid "Map viewer not initialized!"
+msgstr "Il visualizzatore delle mappe non è initializzato!"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:1154
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:1729
+msgid "Please select a map first in the map viewer!"
+msgstr "Selezionare una mappa nel visualizzatore prima!"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:1250
+msgid "Map deleted."
+msgstr "Mappa cancellata."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:1325
+msgid "Map duplicated."
+msgstr "Mappa duplicata."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:1331
+msgid "Select XDF file to import"
+msgstr "Seleziona il file XDF da importare"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:1343
+msgid "Unable to open definitions file!"
+msgstr "Non è stato possibile aprire il file delle definizioni!"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:1356
+msgid "The definitions file is corrupted!"
+msgstr "Il file delle definizioni è corrotto!"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:1367
+msgid "The definitions file version is not compatible!"
+msgstr "Il file delle definizioni non è compatibile!"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:1567
+msgid "Definitions file loaded."
+msgstr "File definizioni caricato."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:1584
+msgid "BIN #1 copied to BIN #2."
+msgstr "BIN #1 copiato nel buffer di BIN #2."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:1602
+msgid "BIN #1 copied to BIN #3."
+msgstr "BIN #1 copiato nel buffer di BIN #3."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:1620
+msgid "BIN #2 copied to BIN #1."
+msgstr "BIN #2 copiato nel buffer di BIN #1."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:1638
+msgid "BIN #2 copied to BIN #3."
+msgstr "BIN #2 copiato nel buffer di BIN #3."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:1656
+msgid "BIN #3 copied to BIN #1."
+msgstr "BIN #3 copiato nel buffer di BIN #1."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:1674
+msgid "BIN #3 copied to BIN #2."
+msgstr "BIN #3 copiato nel buffer di BIN #2."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:1721
+msgid "No BIN file has been loaded in the selected buffer!"
+msgstr "Nessun file BIN è stato caricato nel buffer selezionato!"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:1807
+msgid "Maps file not found!"
+msgstr "Nessun file di definizioni è stato trovato!"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:1815
+msgid "Unable to load maps file!"
+msgstr "Impossibile aprire il file delle definizioni!"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:1828
+msgid "The maps file is corrupted!"
+msgstr "Il file delle definizioni è corrotto!"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:1839
+msgid "The maps file version is not compatible!"
+msgstr "La versione del file delle definizioni non è compatibile!"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:2043
+msgid "Select BIN file to load"
+msgstr "Seleziona BIN da caricare"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:2064
+msgid "File size error!"
+msgstr "Error di dimensione!"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:2072
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:2163
+msgid "Buffer reallocation error!"
+msgstr "Error di allocazione buffer!"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:2081
+msgid "File read error!"
+msgstr "Errore di lettura file!"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:2087
+msgid "File loaded successfully."
+msgstr "File caricato con successo."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:2092
+msgid "File not found!"
+msgstr "File non trovato!"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:2100
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:2123
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:2155
+msgid "Buffer empty error!"
+msgstr "Errore di buffer vuoto!"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:2110
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:2142
+msgid "File write error!"
+msgstr "Errore in scrittura del file!"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:2116
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:2148
+msgid "File saved successfully."
+msgstr "File salvato con successo."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/CrossTunerStudioMain.cpp:2128
+msgid "Select save location & filename"
+msgstr "Selezionare dove salvare il file"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapViewer/MapViewerMain.cpp:66
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapViewer/MapViewerMain.cpp:103
+msgid "Maps"
+msgstr "Mappe"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/FileOptions/FileOptionsMain.cpp:75
+msgid "File Options"
+msgstr "Opzioni File"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/FileOptions/FileOptionsMain.cpp:79
+msgid "Min. Addr"
+msgstr "Ind. Min."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/FileOptions/FileOptionsMain.cpp:83
+msgid "Max Addr"
+msgstr "Ind. Max"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/FileOptions/FileOptionsMain.cpp:89
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/FileOptions/FileOptionsMain.cpp:99
+msgid "Start"
+msgstr "Inizio"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/FileOptions/FileOptionsMain.cpp:93
+msgid "End"
+msgstr "Fine"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/FileOptions/FileOptionsMain.cpp:103
+msgid "Length"
+msgstr "Lunghezza"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/FileOptions/FileOptionsMain.cpp:111
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:483
+msgid "Apply"
+msgstr "Applica"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/FileOptions/FileOptionsMain.cpp:113
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:323
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:484
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:451
+msgid "Cancel"
+msgstr "Annulla"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/FileOptions/FileOptionsMain.cpp:139
+msgid "Welcome to..."
+msgstr "Benvenuto a..."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:155
+msgid "Chart Title"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:172
+msgid "Raw"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:179
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:332
+msgid "Increment raw value"
+msgstr "Incrementa valore raw"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:183
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:334
+msgid "Decrement raw value"
+msgstr "Decrementa valore raw"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:185
+msgid "Perc."
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:190
+msgid "Increment percentage value"
+msgstr "Incrementa valore percentuale"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:194
+msgid "Decrement percentage value"
+msgstr "Decrementa valore percentuale"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:196
+msgid "Eng."
+msgstr "Ing."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:202
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:340
+msgid "Increment engineering value"
+msgstr "Incrementa valore ingegneristico"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:206
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:342
+msgid "Decrement engineering value"
+msgstr "Dencrementa valore ingegneristico"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:214
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:344
+msgid "Fill with value"
+msgstr "Riempi con valore"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:215
+msgid "Fill cells with fixed value"
+msgstr "Riempi celle con valore fisso"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:217
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:377
+msgid "Select by value"
+msgstr "Seleziona per valore"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:218
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:377
+msgid "Select cells by value"
+msgstr "Seleziona celle per valore"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:220
+msgid "Select >="
+msgstr "Seleziona >="
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:237
+msgid "Show statistics of selected cells"
+msgstr "Visualizza le statistiche delle celle selezionate"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:263
+msgid "Interpolation"
+msgstr "Interpolazione"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:282
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1393
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:445
+msgid "X Axis"
+msgstr "Asse X"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:291
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1398
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:446
+msgid "Y Axis"
+msgstr "Asse Y"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:311
+msgid "Open absolute data"
+msgstr "Carica valori assoluti"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:313
+msgid "Open difference data"
+msgstr "Carica differenza"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:316
+msgid "Save absolute data"
+msgstr "Salva valori assoluti"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:318
+msgid "Save difference data"
+msgstr "Salva differenza"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:321
+msgid "Apply\tAlt-F4"
+msgstr "Applica\tAlt-F4"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:321
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:483
+msgid "Apply modifications to BIN"
+msgstr "Applica modifiche al BIN"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:323
+msgid "Close without saving modifications"
+msgstr "Chiudi senza memorizzare le modifiche"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:327
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:486
+msgid "Copy to clipboard"
+msgstr "Copia negli appunti"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:329
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:487
+msgid "Paste from clipboard"
+msgstr "Incolla dai appunti"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:332
+msgid "Inc. raw value"
+msgstr "Inc. valore raw"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:334
+msgid "Dec. raw value"
+msgstr "Dec. valore raw"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:336
+msgid "Inc. perc. value"
+msgstr "Inc. valore perc."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:336
+msgid "Increment by percentage"
+msgstr "Incremento in percentuale"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:338
+msgid "Dec. perc. value"
+msgstr "Dec. valore perc."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:338
+msgid "Decrement by percentage"
+msgstr "Decremento in percentuale"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:340
+msgid "Inc. eng. value"
+msgstr "Inc. valore ing."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:342
+msgid "Dec. eng. value"
+msgstr "Dec. valore ing."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:344
+msgid "Fill selected cells with a value"
+msgstr "Riempi le celle selezionate con un valore"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:347
+msgid "Copy from BIN #1"
+msgstr "Copia da BIN #1"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:349
+msgid "Copy from BIN #2"
+msgstr "Copia da BIN #2"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:351
+msgid "Copy from BIN #3"
+msgstr "Copia da BIN #3"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:355
+msgid "Compare BIN #1"
+msgstr "Compara BIN #1"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:355
+msgid "Compare current BIN to BIN #1"
+msgstr "Compara il l'attuale BIN con il BIN #1"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:357
+msgid "Compare BIN #2"
+msgstr "Compara BIN #2"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:357
+msgid "Compare current BIN to BIN #2"
+msgstr "Compara il l'attuale BIN con il BIN #2"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:359
+msgid "Compare BIN #3"
+msgstr "Compara BIN #3"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:359
+msgid "Compare current BIN to BIN #3"
+msgstr "Compara il l'attuale BIN con il BIN #3"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:362
+msgid "Show differences"
+msgstr "Vedi differenze"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:362
+msgid "Show difference between current BIN and selected compare BIN"
+msgstr "Visualizza differenza tra l'attuale BIN è il BIN selezionato"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:364
+msgid "Show raw values"
+msgstr "Vedi valori raw"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:364
+msgid "Show raw values on grid"
+msgstr "Visualizza valori raw in tabella"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:367
+msgid "Highlight differences"
+msgstr "Evidenzia differenze"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:367
+msgid "Highlight the cells that are different between the current BIN and the compare BIN"
+msgstr "Evidenzia le differenze tra l'attuale BIN e il BIN in comparazione"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:369
+msgid "&Compare"
+msgstr "&Compara"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:371
+msgid "Select all"
+msgstr "Seleziona tutto"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:371
+msgid "Select all cells"
+msgstr "Seleziona tutte le celle"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:373
+msgid "Invert selections"
+msgstr "Inverti selezioni"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:373
+msgid "Invert cell selections"
+msgstr "Inverti le celle selezionate"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:375
+msgid "Clear selections"
+msgstr "Annulla selezioni"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:375
+msgid "Clear all cell selections"
+msgstr "Annulla tutte le selezioni"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:379
+msgid "Select >= value"
+msgstr "Seleziona >= valore"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:379
+msgid "Select cells which are greater then or equal to by value"
+msgstr "Seleziona celle che sono maggiore o uguale al valore"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:382
+msgid "Move selection up"
+msgstr "Muovi selezioni su"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:384
+msgid "Move selection down"
+msgstr "Muovi selezioni giu"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:386
+msgid "Move selection left"
+msgstr "Muovi selezioni a sinistra"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:388
+msgid "Move selection right"
+msgstr "Muovi selezioni a destra"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:390
+msgid "&Select"
+msgstr "&Selezione"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:392
+msgid "View Graphs"
+msgstr "Vedi Grafici"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:392
+msgid "Show 2D graphs side panel"
+msgstr "Visualizza i grafici 2D nel panello laterale"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:394
+msgid "View Controls"
+msgstr "Vedi Controlli"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:394
+msgid "Show controls panel"
+msgstr "Visualizza il panello dei controlli"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:396
+msgid "&View"
+msgstr "&Vedi"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:398
+msgid "2D Map Editor"
+msgstr "Editor 2D"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:400
+msgid "3D Map Viewer"
+msgstr "Visualizzatore 3D"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:484
+msgid "Close table editor"
+msgstr "Chiudi l'editor"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:489
+msgid "Show Differences"
+msgstr "Vedi Differenze"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:490
+msgid "Highlight Differences"
+msgstr "Evidenzia Differenze"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:492
+msgid "Edit in 2D"
+msgstr "Modifica in 2D"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:493
+msgid "View 3D"
+msgstr "Vedi 3D"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:637
+msgid "Please select a BIN file for comparison."
+msgstr "Selezionare un file BIN per la comparazione."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:800
+msgid "Raw number added to "
+msgstr "Valore raw aggiunto a"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:800
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:806
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:818
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:830
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:842
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:854
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:896
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:941
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:974
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1007
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1040
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1073
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1312
+msgid " cells."
+msgstr "celle."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:806
+msgid "Raw number subtracted from "
+msgstr "Valore raw decrementato da"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:813
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:825
+msgid "Please insert a number in the percentage field!"
+msgstr "Inserire un numero nel campo percentuale!"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:818
+msgid "Percentage added to "
+msgstr "Percentuale aggiunto a"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:830
+msgid "Percentage subtracted from "
+msgstr "Percentuale decrementato da"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:837
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:849
+msgid "Please insert a number in the engineering field!"
+msgstr "Inserire un numero nel campo ingegneristico!"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:842
+msgid "Engineering number added to "
+msgstr "Numero ingegneristico incrementato a"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:854
+msgid "Engineering number subtracted from "
+msgstr "Numero ingegneristico decrementato a"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:896
+msgid "Raw number set on "
+msgstr "Valore raw impostato su"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:907
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:984
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1050
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1163
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1170
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1177
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1184
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1240
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1247
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1254
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1261
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1331
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:2194
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:2274
+msgid "This is not a valid number!"
+msgstr "Questo non è un numero valido!"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:941
+msgid "Engineering number set on "
+msgstr "Valore ingegneristico impostato su"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:944
+msgid "Filling is only available for raw & engineering numbers."
+msgstr "Riempimento è disponibile solo per valore raw e ingegneristici."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:974
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1007
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1040
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1073
+msgid "Selected "
+msgstr "Selezionati"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1010
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1076
+msgid "Selection by value is only available for raw & engineering numbers."
+msgstr "Selezione per valore è disponibile solo per raw e ingegneristici."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1108
+msgid "COUNT="
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1109
+msgid " MIN="
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1110
+msgid " AVG="
+msgstr "MED="
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1111
+msgid " MAX="
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1310
+msgid "Interpolation is only available for raw & engineering numbers."
+msgstr "Interpolazione è disponibile solo per valori raw e ingegneristici."
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:1312
+msgid "Interpolation set on "
+msgstr "Interpolazione impostata su"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:2359
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:2365
+msgid "[Source BIN #"
+msgstr "[Sorgente BIN #"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/TableEditor/TableEditorMain.cpp:2367
+msgid " : Compare BIN #"
+msgstr ": Comparazione BIN #"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:137
+msgid "Display Name"
+msgstr "Nome da visualizzare"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:141
+msgid "Description"
+msgstr "Descrizione"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:150
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:300
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:403
+msgid "Address"
+msgstr "Indirizzo"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:154
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:310
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:413
+msgid "Bits"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:157
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:313
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:416
+msgid "8"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:158
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:314
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:417
+msgid "16"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:159
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:315
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:418
+msgid "32"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:161
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:304
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:407
+msgid "Sign"
+msgstr "Segno"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:164
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:307
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:410
+msgid "Unsigned"
+msgstr "Senza Segno"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:165
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:308
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:411
+msgid "Signed"
+msgstr "Segno"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:167
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:317
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:420
+msgid "Byte Order"
+msgstr "Ordine Byte"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:170
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:320
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:423
+msgid "MSB First"
+msgstr "MSB Primo"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:171
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:321
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:424
+msgid "LSB First"
+msgstr "LSB Primo"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:173
+msgid "Data Order"
+msgstr "Ordine Dati"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:176
+msgid "Y / X"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:177
+msgid "X / Y"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:190
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:246
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:349
+msgid "Units"
+msgstr "Unità"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:193
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:249
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:352
+msgid "RPM"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:194
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:250
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:353
+msgid "mg/s"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:195
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:251
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:354
+msgid "Load"
+msgstr "Carico"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:196
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:252
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:355
+msgid "Throttle"
+msgstr "Pedale"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:197
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:253
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:356
+msgid "Absolute Pressure"
+msgstr "Pressione Assoluta"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:198
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:254
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:357
+msgid "Differential Pressure"
+msgstr "Pressione Differenziale"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:199
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:255
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:358
+msgid "MAF"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:200
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:256
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:359
+msgid "Intake Air Flow"
+msgstr "Flusso Aria Aspirazione"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:201
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:257
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:360
+msgid "MAP"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:202
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:258
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:361
+msgid "Intake Air Pressure"
+msgstr "Pressione Aria Aspirazione"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:203
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:259
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:362
+msgid "IAT"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:204
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:260
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:363
+msgid "Intake Air Temperature"
+msgstr "Temperatura Aria Aspirazione"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:206
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:262
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:365
+msgid "Type"
+msgstr "Tipo"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:209
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:265
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:368
+msgid "Integer"
+msgstr "Intero"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:210
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:266
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:369
+msgid "Float"
+msgstr "Vigola Mobile"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:212
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:268
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:371
+msgid "Decimals"
+msgstr "Decimali"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:215
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:225
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:244
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:271
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:281
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:347
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:374
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:384
+msgid "0"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:216
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:229
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:272
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:285
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:375
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:388
+msgid "1"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:217
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:273
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:376
+msgid "2"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:218
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:274
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:377
+msgid "3"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:219
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:275
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:378
+msgid "4"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:220
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:276
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:379
+msgid "5"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:221
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:277
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:380
+msgid "6"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:223
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:279
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:382
+msgid "Offset"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:227
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:283
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:386
+msgid "Factor"
+msgstr "Fattore"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:242
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:345
+msgid "Count"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:294
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:397
+msgid "Source"
+msgstr "Sorgente"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:297
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:400
+msgid "Manual"
+msgstr "Manuale"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:298
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:401
+msgid "Embedded"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:443
+msgid "Settings"
+msgstr "Settaggi"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:444
+msgid "Z Axis"
+msgstr "Asse Z"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:449
+msgid "Apply && Close"
+msgstr "Applica e Chiudi"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/MapEditor/MapEditorMain.cpp:481
+msgid "New Map"
+msgstr "Nuova Mappa"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/ToolEditor/ToolEditorMain.cpp:80
+msgid "Tool Editor"
+msgstr "Editor Attrezzi"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/ToolEditor/ToolEditorMain.cpp:89
+msgid "Add"
+msgstr "Aggiungi"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/ToolEditor/ToolEditorMain.cpp:91
+msgid "Modify"
+msgstr "Modifica"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/ToolEditor/ToolEditorMain.cpp:93
+msgid "Delete"
+msgstr "Cancella"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/ToolEditor/ToolEditorMain.cpp:100
+msgid "Title"
+msgstr "Titolo"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/ToolEditor/ToolEditorMain.cpp:108
+msgid "Command"
+msgstr "Comando"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/ToolEditor/ToolEditorMain.cpp:116
+msgid "Arguments"
+msgstr "Argomenti"
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/ToolEditor/ToolEditorMain.cpp:121
+msgid "?"
+msgstr ""
+
+#: /home/mtx/workspace/wxWidgets/CrossTunerStudio/AboutBoxDialog.h:45
+msgid "About "
+msgstr ""
+

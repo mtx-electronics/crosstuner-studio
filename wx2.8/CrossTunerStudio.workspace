@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="CrossTunerStudio.cbp" active="1" />
+		<Project filename="TableEditor/TableEditor.cbp" />
+		<Project filename="MapEditor/MapEditor.cbp" />
+		<Project filename="MapViewer/MapViewer.cbp" />
+		<Project filename="ToolEditor/ToolEditor.cbp" />
+		<Project filename="FileOptions/FileOptions.cbp" />
+		<Project filename="Map2DEditor/Map2DEditor.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
