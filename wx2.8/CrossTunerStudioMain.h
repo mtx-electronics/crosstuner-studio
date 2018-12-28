@@ -43,7 +43,7 @@
 #include "GlobalVariables.h"
 
 #define APP_VERSION     "0.3.3 [Beta]"
-#define APP_DATE        "2011-2012"
+#define APP_DATE        "2009-2019"
 
 class CrossTunerStudioFrame: public wxFrame
 {
