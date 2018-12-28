@@ -1,5 +1,6 @@
-#define MAX_BUFFER_LENGTH       2097152
+#define MAX_BUFFER_LENGTH       0x800000
 //#define MAX_TEMP_BUFFER_LENGTH  8192
+
 #define MAX_MAPS_DEFINED        256
 #define MAX_EMBEDDEDINFO        256
 
