@@ -143,7 +143,7 @@ void AboutBoxDialog::CreateControls()
     // A panel is a window on which controls are placed. It is usually placed within a frame. It contains
     // minimal extra functionality over and above its parent class wxWindow; its main purpose is to be similar
     // in appearance and functionality to a dialog, but with the flexibility of having any window as a parent.
-    m_ContentPanel = new wxPanel( itemDialog1, ID_ContentPanel, wxDefaultPosition, wxSize(200, 300), wxNO_BORDER|wxTAB_TRAVERSAL );
+    m_ContentPanel = new wxPanel( itemDialog1, ID_ContentPanel, wxDefaultPosition, wxSize(300, 300), wxNO_BORDER|wxTAB_TRAVERSAL );
     m_ContentPanel->SetBackgroundColour(wxColour(255, 255, 255));
     itemBoxSizer2->Add(m_ContentPanel, 0, wxGROW, 0);
 
