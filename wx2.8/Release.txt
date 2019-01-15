@@ -107,7 +107,7 @@ Release history:
 ----------------------------
 
 Release 0.3.3
-- Inrcrementato il file buffer a 8MB
+- Incrementato il file buffer a 8MB
 
 Release 0.3.2
 - Corretto crash durante la colorazione delle celle
